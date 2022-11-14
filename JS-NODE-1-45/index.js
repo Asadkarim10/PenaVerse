@@ -271,9 +271,10 @@ console.log(guestsNames)
 // # Oh no, the table won't arrive on time!
  console.log("\nSorry, we can only invite two people to dinner.")
 
-// name = guests.pop()
-// print("Sorry, " + name.title() + " there's no room at the table.")
+guestsNames.pop()
+//console.log("Sorry, " + guestsNames[0] + " there's no room at the table.")
 
+console.log()
 // name = guests.pop()
 // print("Sorry, " + name.title() + " there's no room at the table.")
 
