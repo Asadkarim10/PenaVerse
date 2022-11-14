@@ -109,3 +109,190 @@
 
 //Task 14
 
+
+// let guestsName = ['Asad karim', 'Imraan kourejo', 'Muneez shah', "waqar khan "]
+
+
+// console.log(guestsName[0] + ", please come to dinner.")
+
+
+// console.log(guestsName[1]+ ", please come to dinner.")
+
+
+// console.log(guestsName[2]+ ", please come to dinner.")
+
+// console.log(guestsName[3]+ ", please come to dinner.")
+
+
+// //Task 15
+// let guestsName = ['Asad', 'imran', 'waqar']
+
+
+// console.log(guestsName[0] + ", please come to dinner.")
+
+// console.log(guestsName[1] + ", please come to dinner.")
+
+// console.log(guestsName[2] + ", please come to dinner.")
+
+// console.log("\nSorry, " + guestsName[0] + " can't make it to dinner.")
+
+// guestsName.splice(0, 1);
+
+
+// console.log(guestsName)
+
+// guestsName.splice(0, 0 ,"muneez");
+
+// console.log(guestsName)
+
+
+
+// console.log(guestsName[0] + ", please come to dinner.")
+
+// console.log(guestsName[1] + ", please come to dinner.")
+
+// console.log(guestsName[2] + ", please come to dinner.")
+
+
+
+//task 16
+
+// # Invite some people to dinner.
+// let guestsName = ['imraan', 'muneez shah', 'waqar khan']
+
+// console.log(guestsName[0] + ", please come to dinner.")
+
+// console.log(guestsName[1] + ", please come to dinner.")
+
+// console.log(guestsName[2] + ", please come to dinner.")
+
+
+// console.log("\nSorry, " + guestsName[0] + " can't make it to dinner.")
+
+// //# imraan can't make it! Let's invite Asad instead.
+
+// guestsName.splice(0, 1);
+
+// console.log(guestsName)
+
+// guestsName.splice(0, 0 ,"Asad karim");
+
+// console.log(guestsName)
+
+// console.log(guestsName[0] + ", please come to dinner.")
+
+// console.log(guestsName[1] + ", please come to dinner.")
+
+// console.log(guestsName[2] + ", please come to dinner.")
+
+
+
+
+//guestsName.insert(2, 'ahmed karim', 'ibad rehman');
+
+// guestsName.splice(2, 0, 'Ahmed karim' , "ibad rehman ");
+
+
+// console.log(guestsName)
+
+
+// console.log(guestsName[0] + ", please come to dinner.")
+
+// console.log(guestsName[1] + ", please come to dinner.")
+
+// console.log(guestsName[2] + ", please come to dinner.")
+
+// console.log(guestsName[3] + ", please come to dinner.")
+
+// console.log(guestsName[4] + ", please come to dinner.")
+
+
+
+// task 17
+
+
+// # Invite some people to dinner.
+ guestsNames = ['Asad', 'Ahmed', 'Aswad', 'waqar']
+
+
+ console.log(guestsNames[0] + ", please come to dinner.")
+
+ console.log(guestsNames[1] + ", please come to dinner.")
+
+ console.log(guestsNames[2] + ", please come to dinner.")
+
+ console.log(guestsNames[3] + ", please come to dinner.")
+
+
+
+
+ 
+// console.log("\nSorry, " + guestsName[1] + " can't make it to dinner.")
+
+// # Jack can't make it! Let's invite Gary instead.
+// del(guests[1])
+
+//  guestsNames.splice(1, 1);
+
+// console.log(guestsNames)
+
+// guestsNames.splice(1,1, "imran iqbal")
+
+// console.log(guestsNames)
+
+// console.log(guestsNames[0] + ", please come to dinner.")
+
+// console.log(guestsNames[1] + ", please come to dinner.")
+
+// console.log(guestsNames[2] + ", please come to dinner.")
+
+
+
+//# We got a bigger table, so let's add some more people to the list.
+console.log("\nWe got a bigger table!")
+
+guestsNames.splice(2, 0, " fakhir "," shazil")
+
+console.log(guestsNames)
+
+
+ console.log(guestsNames[0] + ", please come to dinner.")
+
+ console.log(guestsNames[1] + ", please come to dinner.")
+
+ console.log(guestsNames[2] + ", please come to dinner.")
+
+ console.log(guestsNames[3] + ", please come to dinner.")
+
+ console.log(guestsNames[4] + ", please come to dinner.")
+
+
+
+// # Oh no, the table won't arrive on time!
+ console.log("\nSorry, we can only invite two people to dinner.")
+
+// name = guests.pop()
+// print("Sorry, " + name.title() + " there's no room at the table.")
+
+// name = guests.pop()
+// print("Sorry, " + name.title() + " there's no room at the table.")
+
+// name = guests.pop()
+// print("Sorry, " + name.title() + " there's no room at the table.")
+
+// name = guests.pop()
+// print("Sorry, " + name.title() + " there's no room at the table.")
+
+// # There should be two people left. Let's invite them.
+// name = guests[0].title()
+// print(name + ", please come to dinner.")
+
+// name = guests[1].title()
+// print(name + ", please come to dinner.")
+
+// # Empty out the list.
+// del(guests[0])
+// del(guests[0])
+
+// # Prove the list is empty.
+// print(guests)
