@@ -212,19 +212,16 @@
 
 
 // # Invite some people to dinner.
- guestsNames = ['Asad', 'Ahmed', 'Aswad', 'waqar']
+//  guestsNames = ['Asad', 'Ahmed', 'Aswad', 'waqar']
 
 
- console.log(guestsNames[0] + ", please come to dinner.")
+//  console.log(guestsNames[0] + ", please come to dinner.")
 
- console.log(guestsNames[1] + ", please come to dinner.")
+//  console.log(guestsNames[1] + ", please come to dinner.")
 
- console.log(guestsNames[2] + ", please come to dinner.")
+//  console.log(guestsNames[2] + ", please come to dinner.")
 
- console.log(guestsNames[3] + ", please come to dinner.")
-
-
-
+//  console.log(guestsNames[3] + ", please come to dinner.")
 
  
 // console.log("\nSorry, " + guestsName[1] + " can't make it to dinner.")
@@ -249,51 +246,53 @@
 
 
 //# We got a bigger table, so let's add some more people to the list.
-console.log("\nWe got a bigger table!")
-
-guestsNames.splice(2, 0, " fakhir "," shazil")
-
-console.log(guestsNames)
-
-
- console.log(guestsNames[0] + ", please come to dinner.")
-
- console.log(guestsNames[1] + ", please come to dinner.")
-
- console.log(guestsNames[2] + ", please come to dinner.")
-
- console.log(guestsNames[3] + ", please come to dinner.")
-
- console.log(guestsNames[4] + ", please come to dinner.")
 
 
 
-// # Oh no, the table won't arrive on time!
- console.log("\nSorry, we can only invite two people to dinner.")
+// console.log("\nWe got a bigger table!")
 
-guestsNames.pop()
-//console.log("Sorry, " + guestsNames[0] + " there's no room at the table.")
+// guestsNames.splice(2, 0, " fakhir "," shazil")
 
-console.log()
-// name = guests.pop()
-// print("Sorry, " + name.title() + " there's no room at the table.")
+// console.log(guestsNames)
 
-// name = guests.pop()
-// print("Sorry, " + name.title() + " there's no room at the table.")
 
-// name = guests.pop()
-// print("Sorry, " + name.title() + " there's no room at the table.")
+//  console.log(guestsNames[0] + ", please come to dinner.")
 
-// # There should be two people left. Let's invite them.
-// name = guests[0].title()
-// print(name + ", please come to dinner.")
+//  console.log(guestsNames[1] + ", please come to dinner.")
 
-// name = guests[1].title()
-// print(name + ", please come to dinner.")
+//  console.log(guestsNames[2] + ", please come to dinner.")
 
-// # Empty out the list.
-// del(guests[0])
-// del(guests[0])
+//  console.log(guestsNames[3] + ", please come to dinner.")
 
-// # Prove the list is empty.
-// print(guests)
+//  console.log(guestsNames[4] + ", please come to dinner.")
+
+
+
+// // # Oh no, the table won't arrive on time!
+//  console.log("\nSorry, we can only invite two people to dinner.")
+
+// guestsNames.pop()
+// //console.log("Sorry, " + guestsNames[0] + " there's no room at the table.")
+
+// //console.log()
+// guestsNames.pop()
+// // print("Sorry, " + name.title() + " there's no room at the table.")
+
+// console.log(guestsNames)
+
+// guestsNames.pop()
+// console.log(guestsNames)
+
+//  guestsNames.pop()
+//  console.log("Sorry, " + guestsNames[1] + " there's no room at the table.")
+
+//  guestsNames.pop()
+//  console.log("Sorry, " + guestsNames[0] + " there's no room at the table.")
+
+
+//  console.log(guestsNames)
+
+//  guestsNames.pop()
+
+//  console.log(guestsNames)
+
