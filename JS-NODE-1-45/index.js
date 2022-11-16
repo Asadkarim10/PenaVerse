@@ -296,3 +296,27 @@
 
 //  console.log(guestsNames)
 
+// task 18 
+
+// let locations = ['rajistan', 'venice', 'london', 'paris', 'eqypt','madina', 'makkah']
+
+
+// // console.log(locations)
+
+// // locations.sort()   // Sorts the array alphabetic
+
+// // console.log(locations)
+
+// // locations.reverse();
+
+// // console.log(locations)
+
+// console.log(locations)
+
+//task 19
+
+let invitations = ["Asad karim", "fazal karim", "Aswad karim", "ahmed karim"]
+
+let length =  invitations.length;
+
+console.log(" people will come to my dinner party" + length)
