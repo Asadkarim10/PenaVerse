@@ -315,8 +315,187 @@
 
 //task 19
 
-let invitations = ["Asad karim", "fazal karim", "Aswad karim", "ahmed karim"]
+// let invitations = ["Asad karim", "fazal karim", "Aswad karim", "ahmed karim"]
 
-let length =  invitations.length;
+// let length =  invitations.length;
 
-console.log(" people will come to my dinner party" + length)
+// console.log(" people will come to my dinner party are " + length)
+
+let car = 'subaro'
+
+
+// if ( car == 'subaro' ) {
+
+//     console.log("true")
+
+// } else {
+//     console.log("false")
+// }
+
+//task 23
+
+
+
+// if (car =! "subaro1") {
+    
+//     console.log(" car type also is subaro");
+//   } 
+//   else if (car = "subaro") {
+    
+//     console.log("car is  not subaro")
+//   } 
+//   else {
+//     console.log("subaro car")
+//   }
+
+//   const age = 18;
+
+//   if (age >= 18) {
+//     console.log("Asad is an adult.");
+//   } else {
+//     console.log("KArim is a child.");
+//   }
+
+
+// task 24
+
+// let names = "Asad"
+// let names1 = "kareem"
+
+// if ( names === names1) {
+//     console.log(" they are equal ")
+// }
+
+// else if (names == names1  ) {
+//     console.log('they are equally by both side')
+// }
+
+// else  {
+//     console.log("they are equally treatable")
+// }
+
+// const age = 18;
+
+// if (age < 18) {
+//   console.log("Alice is under 18 years old.");
+// } else if (age >= 18 && age <= 21) {
+//   console.log("Alice is between the ages of 18 and 21.");
+// } else {
+//   console.log("Alice is over 21 years old.");
+// }
+
+
+
+
+// task 25
+
+
+// var alien_color = 'green'
+
+// if (alien_color == 'green' ) {
+//   console.log("You just earned 5 points!")
+// }
+   
+
+// task 26 
+
+// var alien_color = "green"
+
+//   if (alien_color == "green" ) {
+//     console.log("the player just earned 5 points for shooting the alien")
+//   } 
+// else if (alien_Color = "green") {
+//     console.log(" player just earned 10 points.")
+//   } 
+
+
+// var aliens_color = "yellow"
+
+//   if ( aliens_color == " red ") {
+//     console.log("its red")
+//   }
+//   else {
+//     console.log("its yellow")
+//   }
+
+
+
+// task 27
+
+
+
+// var alien_color = 'red'
+
+// if (alien_color == 'green'){ 
+//     console.log("You just earned 5 points!")
+//   }
+//     else if  (alien_color == 'yellow') {
+//     console.log("You just earned 10 points!") 
+//   }
+//   else { 
+//     console.log("You just earned 15 points!")
+//   }
+
+// task 28
+
+// let age = 17
+
+// if ( age < 2 ) {
+//     console.log("You're a baby!")
+//   } else if  (age < 4) { 
+//     console.log("You're a toddler!")
+//   }
+//   else if  (age < 13) { 
+//     console.log("You're a kid!")
+//   }
+//   else if  (age < 20) { 
+//     console.log("You're a teenager!")
+//   }else if  (age < 65){ 
+//     console.log("You're an adult!")
+//   }
+//   else{ 
+//   console.log("You're an elder!")
+//   }
+
+
+// task 29 recheck 
+
+
+// let favorite_fruits = ['blueberries', 'salmonberries', 'peaches']
+
+// if ('banana' in favorite_fruits) {
+//     console.log("You really like bananas!")
+//   }
+
+//   else if ('apple' in favorite_fruits) {
+//     console.log("You really like apple!")
+//   } 
+ 
+//   else if ('blueberries' in favorite_fruits) {
+//     console.log("You really like blueberries!")
+//   }
+
+//   else if ('kiwis' in favorite_fruits) { 
+//     console.log("You really like kiwis!")
+//   }
+//    else if ('peaches' in favorite_fruits) { 
+//     console.log("You really like peaches!")
+//   }
+
+//    else {
+//     console.log("You really like bananasss!")
+//   }
+
+
+def city_country(city, country):
+    """Return a string like 'Santiago, Chile'."""
+    return(city.title() + ", " + country.title())
+
+city = city_country('santiago', 'chile')
+print(city)
+
+city = city_country('ushuaia', 'argentina')
+print(city)
+
+city = city_country('longyearbyen', 'svalbard')
+print(city)
