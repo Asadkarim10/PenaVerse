@@ -505,13 +505,33 @@ let car = 'subaro'
 // 30
 
 
-let usernames = ["Asad", "Ahmed", "Aswad","imran","muneez"];
-for (let i = 0; i < usernames.length; i++){
-    if( usernames === "admin") {
-        console.log("Hello admin, would you like to see a status report?")
-    } else 
- console.log( "Hello " + usernames[i] +  " thank you for logging in again");
-}
+// let usernames = ["Asad", "Ahmed", "Aswad","imran","muneez"];
+// for (let i = 0; i < usernames.length; i++){
+//     if( usernames === "admin") {
+//         console.log("Hello admin, would you like to see a status report?")
+//     } else 
+//  console.log( "Hello " + usernames[i] +  " thank you for logging in again");
+// }
+
+
+// 31
+
+
+// let usernames = [" "];
+// for (let i = 0; i < usernames.length; i++){
+//     if( usernames === "admin") {
+//         console.log("Hello admin, would you like to see a status report?")
+//     } else 
+// console.log("we need to find some users!")
+// }
+
+
+
+
+
+
+
+
 
 
 
@@ -548,4 +568,62 @@ for (let i = 0; i < usernames.length; i++){
 // console.log("\nI really love pizza!")
 
 
+
+// task 35
+
+// var animals = ["dog", "lion", "tiger"]
+
+// for (let i = 0; i < animals.length; i++){
+//     console.log([animals]  + " has four leg")
+// } console.log('All these have tails')
+
+// task 36
+
+// function make_shirt( size, message) {
+//     console.log(size, message)
+//   }
+
+// make_shirt( "34", "i love js" )
+
+
+
+//task 37
+
+// function make_shirt(size='large', message='I love Js!'){
+//   //  """Summarize the shirt that's going to be made."""
+//     console.log("\nI'm going to make a " + size + " t-shirt.")
+//     console.log('It will say, "' + message + '"')
+// }
+// make_shirt()
+// make_shirt(size='medium')
+// make_shirt('small', 'Programmers are loopy.')
+
+//task 38 
+
+
+// function describe_city(city, country='pakistan'){ 
+    
+//    var  msg = city + " is in " + country + "."
+//     console.log(msg)
+// }
+// describe_city('karachi')
+// describe_city('madina', 'saudi arabia')
+// describe_city('islamabad')
+
+
+//task 39 
+
+// function city_country(city, country) { 
+
+//     return(city + ", " + country)
+
+// }
+// var city = city_country('karachi', 'pakistan ')
+// console.log(city)
+
+// var city = city_country('mumbai', 'india')
+// console.log(city)
+
+//  var city = city_country('london', 'england')
+// console.log(city)
 
