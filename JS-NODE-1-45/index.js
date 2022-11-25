@@ -487,15 +487,65 @@ let car = 'subaro'
 //   }
 
 
-def city_country(city, country):
-    """Return a string like 'Santiago, Chile'."""
-    return(city.title() + ", " + country.title())
+// def city_country(city, country):
+//     """Return a string like 'Santiago, Chile'."""
+//     return(city.title() + ", " + country.title())
 
-city = city_country('santiago', 'chile')
-print(city)
+// city = city_country('santiago', 'chile')
+// print(city)
 
-city = city_country('ushuaia', 'argentina')
-print(city)
+// city = city_country('ushuaia', 'argentina')
+// print(city)
 
-city = city_country('longyearbyen', 'svalbard')
-print(city)
+// city = city_country('longyearbyen', 'svalbard')
+// print(city)
+
+
+
+// 30
+
+
+let usernames = ["Asad", "Ahmed", "Aswad","imran","muneez"];
+for (let i = 0; i < usernames.length; i++){
+    if( usernames === "admin") {
+        console.log("Hello admin, would you like to see a status report?")
+    } else 
+ console.log( "Hello " + usernames[i] +  " thank you for logging in again");
+}
+
+
+
+
+
+
+
+
+
+
+//Task 34 completed
+
+//a
+
+// let names = ["Neapolitan Pizza", "Chicago Pizza", "New York-Style Pizza",];
+// for (let i = 0; i < names.length; i ++){
+//     if( names = "asad") {
+//         console.log("sorry try again")
+//     } else 
+//  console.log(names[i]);
+// }
+
+
+//b
+
+// let namess = ["Neapolitan Pizza", "Chicago Pizza", "New York-Style Pizza",];
+// for (let i = 0; i < namess.length; i ++){
+//  console.log("i like " + namess[i]);
+// }
+// 
+
+//c
+
+// console.log("\nI really love pizza!")
+
+
+
