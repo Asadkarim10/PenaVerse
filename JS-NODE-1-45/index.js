@@ -627,3 +627,29 @@ let car = 'subaro'
 //  var city = city_country('london', 'england')
 // console.log(city)
 
+
+
+
+// task 40 
+
+
+
+
+
+
+
+// task 41
+
+function show_magicians(magicians){ 
+   
+for (let i = 0; i < magicians.length; i++) {
+    console.log([magicians[i]])
+}
+}
+
+magicians = ['harry houdini', 'david blaine', 'teller']
+show_magicians(magicians)
+
+
+// task 42 
+
