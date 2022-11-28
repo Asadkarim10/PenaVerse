@@ -640,16 +640,63 @@ let car = 'subaro'
 
 // task 41
 
-function show_magicians(magicians){ 
+// function show_magicians(magicians){ 
    
-for (let i = 0; i < magicians.length; i++) {
-    console.log([magicians[i]])
-}
-}
+// for (let i = 0; i < magicians.length; i++) {
+//     console.log([magicians[i]])
+// }
+// }
 
-magicians = ['harry houdini', 'david blaine', 'teller']
-show_magicians(magicians)
+// magicians = ['harry houdini', 'david blaine', 'teller']
+// show_magicians(magicians)
 
 
 // task 42 
 
+
+
+// task 43 
+
+const magiciansList = ["Alpha","bravo","charlie"]
+
+console.log('old array:', magiciansList);
+
+function make_great(magicians) {
+    const great_magicians = [];
+    
+    for (magician of magicians) {
+        console.log(`${magician} the Great`);
+        great_magicians.push(`${magician} the Great`)
+    }
+    return great_magicians
+
+}
+
+function show_magicians(magician) {
+    for (names of magician) {
+        console.log(names)
+    }
+}
+
+show_magicians(magiciansList);
+
+const great_magicians = make_great(magiciansList)
+console.log('updated Array', great_magicians);
+
+
+
+// task 44 
+
+function sandwich(list){
+    console.log("we are making your sandwish");
+    for (items of list ) {
+        console.log(`we are adding ${items} to your sandwish`)
+    }
+    console.log('Sandwish is ready now!');
+}
+
+sandwich(["ketchup","bread","mayonese"])
+sandwich(["tomato","cheese","salad"])
+sandwich(["meat","slices","ketchup","tomato","cheese"])
+
+//task 45
