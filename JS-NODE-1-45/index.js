@@ -2,10 +2,18 @@
 //node js installed
 
 
+
+
+
 //Task 2 
 
-//var Asad = "Hello Eric, would you like to learn some Python today?"
-//console.log(Asad)
+//var asadKarim = "Hello Asad, would you like to learn some js today?"
+//console.log(asadKarim)
+
+
+
+
+
 
 //Task 3 
 
@@ -23,11 +31,26 @@
 //    .join(' ');
 // console.log(newStr);
 
+
+
+
+
+
+
+
+
 // Task 4
 
 // let Asad = "Mohd Ali jinnah once said, “I do not believe in taking the right decision, I take a decision and make it right”"
 
 // console.log(Asad)
+
+
+
+
+
+
+
 
 // Task 5
 
@@ -37,7 +60,19 @@
     // console.log(famous_person + message)
 
 
- // Task 6
+
+
+
+
+
+
+
+
+
+
+
+
+    // Task 6
  
 //  let Name = "      asad \n karim \t mughal           "
 //  let NameN = "      asad \n karim \t mughal           ".replace(/\s+/g, ' ').trim()
@@ -45,6 +80,13 @@
 
 //  console.log(Name)
 //  console.log(NameN)
+
+
+
+
+
+
+
 
 // Task 7
 
@@ -58,6 +100,20 @@
 // console.log(eight1)
 // console.log(eight) 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Task 8
 
 
@@ -65,6 +121,15 @@
 // console.log(5 + 3)
 // console.log(5 + 3)
 // console.log(5 + 3)
+
+
+
+
+
+
+
+
+
 
 // Task 9
 
@@ -75,12 +140,27 @@
 // console.log(msg)
 
 
+
+
+//task 10
+
+
+
+
+
+
+
+
 //Task 11
 // const friends = ["Asad", "imran", "muneez","waqar"];
 
 // console.log(friends[0])
 // console.log(friends[0])
 // console.log(friends[0])
+
+
+
+
 
 //Task 12
 
@@ -655,48 +735,82 @@ let car = 'subaro'
 
 
 
+
+
+
 // task 43 
 
-const magiciansList = ["Alpha","bravo","charlie"]
+// const magiciansList = ["Alpha","bravo","charlie"]
 
-console.log('old array:', magiciansList);
+// console.log('old array:', magiciansList);
 
-function make_great(magicians) {
-    const great_magicians = [];
+// function make_great(magicians) {
+//     const great_magicians = [];
     
-    for (magician of magicians) {
-        console.log(`${magician} the Great`);
-        great_magicians.push(`${magician} the Great`)
-    }
-    return great_magicians
+//     for (magician of magicians) {
+//         console.log(`${magician} the Great`);
+//         great_magicians.push(`${magician} the Great`)
+//     }
+//     return great_magicians
 
-}
+// }
 
-function show_magicians(magician) {
-    for (names of magician) {
-        console.log(names)
-    }
-}
+// function show_magicians(magician) {
+//     for (names of magician) {
+//         console.log(names)
+//     }
+// }
 
-show_magicians(magiciansList);
+// show_magicians(magiciansList);
 
-const great_magicians = make_great(magiciansList)
-console.log('updated Array', great_magicians);
+// const great_magicians = make_great(magiciansList)
+// console.log('updated Array', great_magicians);
+
+
+
 
 
 
 // task 44 
 
-function sandwich(list){
-    console.log("we are making your sandwish");
-    for (items of list ) {
-        console.log(`we are adding ${items} to your sandwish`)
-    }
-    console.log('Sandwish is ready now!');
-}
+// function sandwich(list){
+//     console.log("we are making your sandwish");
+//     for (items of list ) {
+//         console.log(`we are adding ${items} to your sandwish`)
+//     }
+//     console.log('Sandwish is ready now!');
+// }
 
-sandwich(["ketchup","bread","mayonese"])
-sandwich(["tomato","cheese","salad"])
-sandwich(["meat","slices","ketchup","tomato","cheese"])
+// sandwich(["ketchup","bread","mayonese"])
+// sandwich(["tomato","cheese","salad"])
+// sandwich(["meat","slices","ketchup","tomato","cheese"])
 
 //task 45
+
+function cars(manufacturer,model,options) {
+    carObj = {
+        manufacturer: manufacturer,
+        modal : model,
+    };
+
+
+    if (options) {
+        const extraOptions = Object.keys(options);
+
+        for (let i = 0; i < extraOptions.length; i++) {
+            carObj[Object.keys(options)[i]] = Object.values(options)[i];
+        }
+    }
+    return carObj;
+}
+
+const civic = cars("Honda", "V2", { color :"black", Gps:"acrivated"});
+console.log(civic);
+
+const picanto = cars('kia',"S2", { 
+    color:'Gray',
+    gps:"not required",
+    brakes: "abs",
+});
+
+console.log(picanto);
