@@ -103,17 +103,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // Task 8
 
 
@@ -121,10 +110,6 @@
 // console.log(5 + 3)
 // console.log(5 + 3)
 // console.log(5 + 3)
-
-
-
-
 
 
 
@@ -178,13 +163,23 @@
 // const msg4 = "Hello, " + names[3] + "!"
 // console.log(msg4)
 
+
+
+
 //Task 13
 
 // var favorite_transportation = ['car', "airplane","bike"]
 
+
 // console.log("I go to work using " + ( favorite_transportation[0]))
 // console.log("I travel overseas using " +(favorite_transportation[1]))
 // console.log("I love to ride on " +(favorite_transportation[2]))
+
+
+
+
+
+
 
 
 //Task 14
@@ -376,6 +371,23 @@
 
 //  console.log(guestsNames)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // task 18 
 
 // let locations = ['rajistan', 'venice', 'london', 'paris', 'eqypt','madina', 'makkah']
@@ -393,6 +405,8 @@
 
 // console.log(locations)
 
+
+
 //task 19
 
 // let invitations = ["Asad karim", "fazal karim", "Aswad karim", "ahmed karim"]
@@ -401,7 +415,8 @@
 
 // console.log(" people will come to my dinner party are " + length)
 
-let car = 'subaro'
+
+//let car = 'subaro'
 
 
 // if ( car == 'subaro' ) {
@@ -411,6 +426,27 @@ let car = 'subaro'
 // } else {
 //     console.log("false")
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //task 23
 
@@ -435,6 +471,19 @@ let car = 'subaro'
 //   } else {
 //     console.log("KArim is a child.");
 //   }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // task 24
@@ -467,6 +516,7 @@ let car = 'subaro'
 
 
 
+
 // task 25
 
 
@@ -476,6 +526,8 @@ let car = 'subaro'
 //   console.log("You just earned 5 points!")
 // }
    
+
+
 
 // task 26 
 
@@ -500,6 +552,8 @@ let car = 'subaro'
 
 
 
+
+
 // task 27
 
 
@@ -515,6 +569,10 @@ let car = 'subaro'
 //   else { 
 //     console.log("You just earned 15 points!")
 //   }
+
+
+
+
 
 // task 28
 
@@ -536,6 +594,7 @@ let car = 'subaro'
 //   else{ 
 //   console.log("You're an elder!")
 //   }
+
 
 
 // task 29 recheck 
@@ -582,7 +641,8 @@ let car = 'subaro'
 
 
 
-// 30
+
+// task 30
 
 
 // let usernames = ["Asad", "Ahmed", "Aswad","imran","muneez"];
@@ -592,6 +652,8 @@ let car = 'subaro'
 //     } else 
 //  console.log( "Hello " + usernames[i] +  " thank you for logging in again");
 // }
+
+
 
 
 // 31
@@ -646,6 +708,8 @@ let car = 'subaro'
 //c
 
 // console.log("\nI really love pizza!")
+
+
 
 
 
@@ -731,7 +795,22 @@ let car = 'subaro'
 // show_magicians(magicians)
 
 
+
+
+
+
+
 // task 42 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -771,6 +850,8 @@ let car = 'subaro'
 
 
 
+
+
 // task 44 
 
 // function sandwich(list){
@@ -785,32 +866,46 @@ let car = 'subaro'
 // sandwich(["tomato","cheese","salad"])
 // sandwich(["meat","slices","ketchup","tomato","cheese"])
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //task 45
 
-function cars(manufacturer,model,options) {
-    carObj = {
-        manufacturer: manufacturer,
-        modal : model,
-    };
+// function cars(manufacturer,model,options) {
+//     carObj = {
+//         manufacturer: manufacturer,
+//         modal : model,
+//     };
 
 
-    if (options) {
-        const extraOptions = Object.keys(options);
+//     if (options) {
+//         const extraOptions = Object.keys(options);
 
-        for (let i = 0; i < extraOptions.length; i++) {
-            carObj[Object.keys(options)[i]] = Object.values(options)[i];
-        }
-    }
-    return carObj;
-}
+//         for (let i = 0; i < extraOptions.length; i++) {
+//             carObj[Object.keys(options)[i]] = Object.values(options)[i];
+//         }
+//     }
+//     return carObj;
+// }
 
-const civic = cars("Honda", "V2", { color :"black", Gps:"acrivated"});
-console.log(civic);
+// const civic = cars("Honda", "V2", { color :"black", Gps:"acrivated"});
+// console.log(civic);
 
-const picanto = cars('kia',"S2", { 
-    color:'Gray',
-    gps:"not required",
-    brakes: "abs",
-});
+// const picanto = cars('kia',"S2", { 
+//     color:'Gray',
+//     gps:"not required",
+//     brakes: "abs",
+// });
 
-console.log(picanto);
+// console.log(picanto);
