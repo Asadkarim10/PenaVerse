@@ -130,6 +130,22 @@
 //task 10
 
 
+// This function is adding any two number
+// function add(num1,num2) {
+//     return num1 + num2;
+// }
+// // This function subtracting any two number
+// function sub(num1,num2) {
+//     return num1 - num2;
+// }
+/*
+This two function are execute like this
+add(2,2);
+sub(4,2);
+*/
+
+
+
 
 
 
@@ -227,6 +243,8 @@
 // console.log(guestsName[1] + ", please come to dinner.")
 
 // console.log(guestsName[2] + ", please come to dinner.")
+
+
 
 
 
@@ -428,12 +446,47 @@
 // }
 
 
+//task 20
+
+
+// var mountains = [];
+
+// mountains[0] = "Mount Everest";
+// mountains[1] = "Mount kilimanjaro";
+// mountains[2] = "Nanga Parbat";
+// mountains[3] = "Makalu";
+
+// console.log(mountains);
+
+
+
+// task 21
+
+// var student = {
+//     name: "Zaqa",
+//     age:20,
+//     session: "B",
+//     class: "Web 3.0"
+// }
+
+// console.log(student);
 
 
 
 
 
+//task 22
 
+// var mountains = [];
+
+// mountains[0] = "Mount Everest";
+// mountains[1] = "Mount kilimanjaro";
+// mountains[2] = "Nanga Parbat";
+// mountains[3] = "Makalu";
+
+// console.log(mountains[4]);
+// mountains[4] = "Tirich Mir";
+// console.log(mountains[4]);
 
 
 
@@ -600,44 +653,30 @@
 // task 29 recheck 
 
 
-// let favorite_fruits = ['blueberries', 'salmonberries', 'peaches']
+// var favorite_fruits = ["Apple","Banana","Orange","Mango","Lemon"];
 
-// if ('banana' in favorite_fruits) {
-//     console.log("You really like bananas!")
-//   }
+// if(favorite_fruits[0] === "Lemon") {
+//     console.log(`You really like ${favorite_fruits[0]}!`)
+// }
 
-//   else if ('apple' in favorite_fruits) {
-//     console.log("You really like apple!")
-//   } 
- 
-//   else if ('blueberries' in favorite_fruits) {
-//     console.log("You really like blueberries!")
-//   }
+// if(favorite_fruits[1] === "Lemon") {
+//     console.log(`You really like ${favorite_fruits[1]}!`)
+// }
 
-//   else if ('kiwis' in favorite_fruits) { 
-//     console.log("You really like kiwis!")
-//   }
-//    else if ('peaches' in favorite_fruits) { 
-//     console.log("You really like peaches!")
-//   }
+// if(favorite_fruits[2] === "Lemon") {
+//     console.log(`You really like ${favorite_fruits[2]}!`)
+// }
 
-//    else {
-//     console.log("You really like bananasss!")
-//   }
+// if(favorite_fruits[3] === "Lemon") {
+//     console.log(`You really like ${favorite_fruits[3]}!`)
+// }
+
+// if(favorite_fruits[4] === "Lemon") {
+//     console.log(`You really like ${favorite_fruits[4]}!`)
+// }
 
 
-// def city_country(city, country):
-//     """Return a string like 'Santiago, Chile'."""
-//     return(city.title() + ", " + country.title())
 
-// city = city_country('santiago', 'chile')
-// print(city)
-
-// city = city_country('ushuaia', 'argentina')
-// print(city)
-
-// city = city_country('longyearbyen', 'svalbard')
-// print(city)
 
 
 
@@ -656,7 +695,7 @@
 
 
 
-// 31
+// 31 task
 
 
 // let usernames = [" "];
@@ -669,10 +708,47 @@
 
 
 
+//task 32
+
+
+// var current_users = ["Asim","Khalid","Waseem","Rahim","Salman"];
+// var new_users = ["Rana","Khalid","Zaka","Rahim","Maaz"];
+
+// for(var i = 0; i < new_users.length;i++) {
+//         if(current_users.includes(new_users[i])) {
+//             console.log(new_users[i], "this user name is already exist, please try another username")
+//         } else {
+//             console.log("This username is available");
+//         }
+// }
 
 
 
+//task 33
 
+// var num = [1,2,3,4,5,6,7,8,9];
+
+// for(var i = 0; i < num.length;i++) {
+//     if(num[i] === 1) {
+//         console.log("1st");
+//     } else if(num[i] === 2) {
+//         console.log("2nd");
+//     } else if(num[i] === 3) {
+//         console.log("3rd");
+//     } else if(num[i] === 4) {
+//         console.log("4th");
+//     } else if(num[i] === 5) {
+//         console.log("5th");
+//     } else if(num[i] === 6) {
+//         console.log("6th");
+//     } else if(num[i] === 7) {
+//         console.log("7th");
+//     } else if(num[i] === 8) {
+//         console.log("8th");
+//     } else if(num[i] === 9) {
+//         console.log("9th");
+//     }
+// }
 
 
 
@@ -723,11 +799,20 @@
 
 // task 36
 
+
+
 // function make_shirt( size, message) {
 //     console.log(size, message)
 //   }
 
 // make_shirt( "34", "i love js" )
+
+
+
+
+
+
+
 
 
 
@@ -742,6 +827,8 @@
 // make_shirt(size='medium')
 // make_shirt('small', 'Programmers are loopy.')
 
+
+
 //task 38 
 
 
@@ -753,6 +840,8 @@
 // describe_city('karachi')
 // describe_city('madina', 'saudi arabia')
 // describe_city('islamabad')
+
+
 
 
 //task 39 
@@ -776,6 +865,18 @@
 
 // task 40 
 
+
+// function make_album(artistName,albumTitle,tracks) {
+//     this.artistName = artistName;
+//     this.albumTitle = albumTitle;
+//     if(tracks) {
+//        this.tracks = tracks; 
+//     }
+// }
+
+// console.log(new make_album("Shehzad Roy","Teri Soorat"))
+// console.log(new make_album("Ali Zafar","Masty"))
+// console.log(new make_album("Atif Aslam","Jal Pari",20))
 
 
 
@@ -804,7 +905,23 @@
 
 
 
+// var magicians = ["Noor Jehan","Mehdi Hassan","Ahmed Rushdi","Nazia Hassan"];
 
+// function make_great(arr) {
+//         for(var i = 0; i < arr.length; i++) {
+//         magicians[i] = `Great ${arr[i]}`;
+//     }
+//     return magicians;
+// }
+
+
+// function show_magicians(arr) {
+//     for(var i = 0; i < arr.length; i++) {
+//         console.log(arr[i]);
+//     }
+// }
+
+// show_magicians(make_great(magicians));
 
 
 
@@ -909,3 +1026,7 @@
 // });
 
 // console.log(picanto);
+
+
+
+//completed
